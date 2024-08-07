@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Contenedor_menulateral{
+    padding-top: 10px;
+    float: right;
+    background-color: rgb(19, 19, 19);
+
+    width: 30%;
+    max-height: 100%;
+
+        .Seccion_1{
+            width: 100%;
+        }
+    
+}
+.Buscador{
+    display: flex;
+    justify-content: center;
+     
+    .div1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        border-radius: 25px 25px 25px 25px;
+        background-color: rgb(31, 31, 31);
+        padding: 10px;
+    }
+    
+   
+   
+  
+    .boton{
+        border: none;
+        background: none;
+        cursor: pointer;
+        
+    }
+    .boton:hover{
+    
+        transform: translateY(-2px);
+        border-radius: 50%;
+
+    }
+    .input_txt{
+        all: unset;
+        
+        color: white;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        width: 100%;
+        margin-left: 5%;
+    }
+    .input_txt::placeholder{
+        color: white;
+    }
+}

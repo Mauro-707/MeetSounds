@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Contenedor{
+    top: 0;
+    position: absolute;
+    margin-left: 20%;
+    border-right: 2px solid rgb(145, 145, 145);
+
+    
+    width: 50%;
+    flex-grow: 1;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    
+}
+.btn_div{
+    
+
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid rgb(145, 145, 145);
+}
+.btn_div:hover{
+    background-color: rgba(66, 66, 66, 0.137);
+    
+}
+.nav{
+    background-color: rgb(19, 19, 19);
+
+    width: 50%;
+    position: fixed;
+    z-index: 2;
+}
+.Div_1, .Div_2{
+    height: auto;
+    padding-top: 35px;
+}
+.Publicacion{
+    z-index: 1;
+    margin-top: 10px ;    
+    border-bottom: 1px solid  rgb(92, 92, 92);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.Publicacion_nav{
+    font-size: 1.2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .img_perfil{
+        position: relative;
+                    
+        width: 12%;
+        height: 12%;
+    }
+    .img_mas{
+        height: 20px;
+        width: 20px;
+    }
+    .Tiempo{
+        position: relative;
+        top: 5px;
+        color: rgb(136, 136, 136);
+
+    }
+    .img_mas{
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        
+    }
+}
+.Publicacion_usuario{
+    position: relative;
+    top: 5px;
+    left: -4px;
+    .usuario_a{
+        color: rgb(136, 136, 136);
+    }
+}
+.Publicacion_texto{
+    position: relative;
+    margin-left: 11%;
+    margin-bottom: 5px;
+    width: 80%;
+}
+.Publicacion_media{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 11%;    
+    
+    #myImage{
+        
+        border-radius: 5%;
+    }
+   
+
+}
+.reaccion{
+    background-color: none;
+    width: 100%;
+    margin: 0.5%;
+    
+    .boton_reaccion{
+        background: none;
+        border: none;
+        
+        img{
+            max-width: 90%;
+            height:auto;
+        }
+    }
+    .boton_reaccion:nth-of-type(1){
+        position: relative;
+        left: 11%;
+    }
+    .boton_reaccion:nth-of-type(2){
+        position: relative;
+        left: 13%;
+    }
+    .boton_reaccion:nth-of-type(3){
+        position: relative;
+        left: 16%;
+    }
+    .boton_reaccion:nth-of-type(4){
+        margin-right: 9%;
+        float: right;
+    }
+    
+
+}
